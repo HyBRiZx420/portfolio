@@ -37,7 +37,7 @@ export const ProjektKarte = ({
                         alt=""
                     />
                 </div>
-                <div className="border-b border-indigo-950/30 bg-indigo-700/30 rounded-b-2xl  text-center">
+                <div className="border-b border-indigo-950/30 bg-emerald-600 rounded-b-2xl  text-center">
                     <p className="">{subtitle}</p>
                 </div>
             </div>
@@ -61,12 +61,12 @@ const HoverLayer = ({ imageSet, git_url }: HoverLayerProps) => {
                 />
             )}
             <div className="w-full flex items-center justify-center gap-6 absolute top-20 bg-white/20 backdrop-blur-md backdrop-opacity-65 py-3 transition duration-150">
-                <div className="text-gray-950 hover:text-indigo-600/80">
+                <div className="text-gray-950 hover:text-indigo-600/90">
                     <a href={git_url} target="_blank">
                         <FaGithubAlt size={52} />
                     </a>
                 </div>
-                <div className="text-gray-950 hover:text-indigo-600/80">
+                <div className="text-gray-950 hover:text-indigo-600/90">
                     <FaRegImages
                         size={52}
                         onClick={() => setShowOverlay(true)}

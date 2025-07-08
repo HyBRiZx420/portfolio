@@ -15,7 +15,7 @@ const skills = [
 export const Skills = () => {
     return (
         <>
-            <div className="w-full px-3 py-4 rounded-xl flex flex-col gap-2 bg-slate-800 shadow-lg border border-slate-600">
+            <div className="w-full px-3 py-4 rounded-xl flex flex-col gap-2 bg-slate-950 shadow-lg border  border-green-500">
                 <Section>
                     <p className="text-4xl pb-2"> Meine Fähigkeiten</p>
                     <div className=" grid text-sm md:text-base grid-cols-3 gap-1.5">
@@ -28,22 +28,19 @@ export const Skills = () => {
                 <Section>
                     <p className="text-4xl pt-2 pb-3"> Abschlüsse </p>
                     <p className="text-xl pt-2 pb-0">
-                        Qualifikation zum Data-Analyst
-                        - Data Craft GmbH München 
+                        Qualifikation zum Data-Analyst - Data Craft GmbH München
                         - 2024 - 2025
-                        <b> ✓</b>
+                        <b></b>
                     </p>
                     <p className="text-xl pt-1 pb-0">
-                        Berufsausbildung zum Koch
-                        - Best Western Seehotel Frankenhorst 
-                        - 2008 - 2011
-                        <b> ✓</b>
+                        Berufsausbildung zum Koch - Best Western Seehotel
+                        Frankenhorst - 2008 - 2011
+                        <b></b>
                     </p>
                     <p className="text-xl pt-1 pb-0">
-                        Hauptschuleabschluss
-                        - Volkshochschule Schwerin  
-                        - 2006 - 2007
-                        <b> ✓</b>
+                        Hauptschuleabschluss - Volkshochschule Schwerin - 2006 -
+                        2007
+                        <b></b>
                     </p>
                 </Section>
                 <Section>

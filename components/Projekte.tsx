@@ -34,7 +34,7 @@ const projektListe = [
 export const Projekte = () => {
     return (
         <>
-            <div className="w-full flex flex-col gap-4 bg-slate-800 shadow-lg border border-slate-600 p-4">
+            <div className="w-full flex flex-col gap-4 bg-slate-950 shadow-lg border rounded-xl border-green-500 p-4">
                 <p className="text-4xl pb-2"> Projekte(Work in Progress)</p>
                 <Section>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 justify-items-center">
@@ -53,7 +53,7 @@ export const Projekte = () => {
                 </Section>
                 <a
                     href="mailto:irgendwasmitdata@web.de"
-                    className="px-6 font-semibold py-3 bg-red-800/10 hover:bg-indigo-800/70 backdrop-blur shadow shadow-indigo-700/70 text-neutral-200 text-center rounded-lg transition">
+                    className="px-6 font-semibold py-3 bg-slate-900/60 border border-green-500 hover:bg-emerald-600 backdrop-blur shadow shadow-emerald-600/100 text-neutral-200 text-center rounded-lg transition">
                     Kontaktieren sie mich hier
                 </a>
             </div>

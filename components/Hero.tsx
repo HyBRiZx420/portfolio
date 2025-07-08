@@ -75,7 +75,7 @@ const skills = [
 
 export const Hero = () => {
     return (
-        <div className="w-full px-3 py-4 rounded-xl flex flex-col gap-6 bg-slate-800 shadow-lg border border-slate-600">
+        <div className="w-full px-3 py-4 rounded-xl flex flex-col gap-6 bg-slate-950 shadow-lg border border-green-500">
             <div className="font-bold text-4xl">Michael Matthiesen</div>
             <p className="italic text-sm py-1">
                 IHK-zertifizierter Data-Analyst

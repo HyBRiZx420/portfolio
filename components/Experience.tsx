@@ -3,7 +3,7 @@ import { Section } from "./Shared/Section";
 export const Experience = () => {
     return (
         <>
-            <div className="w-full px-3 pt-3 pb-10 rounded-xl flex flex-col gap-2 bg-slate-800 shadow-lg border border-slate-600">
+            <div className="w-full px-3 pt-3 pb-10 rounded-xl flex flex-col gap-2 bg-slate-950 shadow-lg border  border-green-500">
                 <p className="text-4xl py-2">Beruflicher Werdegang</p>
 
                 <Section>
