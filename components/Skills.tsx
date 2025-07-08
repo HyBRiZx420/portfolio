@@ -38,15 +38,15 @@ export const Skills = () => {
                         <b></b>
                     </p>
                     <p className="text-xl pt-1 pb-0">
-                        Hauptschuleabschluss - Volkshochschule Schwerin - 2006 -
+                        Hauptschulabschluss - Volkshochschule Schwerin - 2006 -
                         2007
                         <b></b>
                     </p>
                 </Section>
                 <Section>
                     <p className="text-4xl pt-2 pb-3"> Sprachen </p>
-                    <p>Deutsch, Muttersprache</p>
-                    <p>Englisch (B2)</p>
+                    <p className="text-xl pt-2 pb-0"> Deutsch, Muttersprache</p>
+                    <p className="text-xl pt-2 pb-0"> Englisch (B2)</p>
                 </Section>
             </div>
         </>
