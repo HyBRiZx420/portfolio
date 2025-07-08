@@ -75,9 +75,9 @@ const skills = [
 
 export const Hero = () => {
     return (
-        <div className="w-full px-3 py-4 rounded-xl flex flex-col gap-6 bg-slate-950 shadow-lg border border-green-500">
-            <div className="font-bold text-4xl">Michael Matthiesen</div>
-            <p className="italic text-sm py-1">
+        <div className="w-full px-3 py-4 rounded-xl flex flex-col gap-6 bg-slate-950 shadow-lg border-2 border-green-500">
+            <div className="font-bold text-3xl">Michael Matthiesen</div>
+            <p className="font-bold italic text-sm py-1">
                 IHK-zertifizierter Data-Analyst
             </p>
 
@@ -88,7 +88,7 @@ export const Hero = () => {
                     {/* Profilbild */}
                     <Image
                         src="/Me.jpg"
-                        className="rounded-4xl"
+                        className="rounded-2xl border-2 border-green-500"
                         width={250}
                         height={200}
                         alt="Bewerbungsfoto"
@@ -108,7 +108,7 @@ export const Hero = () => {
                                 ))}
                             </div>
                         </div>
-                        <hr />
+                        <hr className="border-1 border-green-500" />
                         <div className="flex justify-center gap-0">
                             <Image
                                 src="/cert.png"
@@ -135,8 +135,8 @@ export const Hero = () => {
 
             {/* Was mich ausmacht */}
             <div>
-                <p className="text-3xl py-3">Was mich ausmacht</p>
-                <p>
+                <p className="font-bold text-2xl py-3">Was mich ausmacht</p>
+                <p className="text-1xl py-1">
                     Ich bin ein kreativer Data-Analyst mit gastronomischem
                     Background und einer Affinität für Daten und
                     Naturwissenschaften. Meine rasche Auffassungsgabe und mein
