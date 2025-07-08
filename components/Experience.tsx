@@ -97,7 +97,7 @@ export const Experience = () => {
                     </p>
                     <p className="italic text-sm py-1">Anker Sylt GmbH</p>
                     <p className="pt-1">
-                        In meiner Tätigkeit als Küchenchef im Möller's Anker
+                        In meiner Tätigkeit als Küchenchef im Möllers Anker
                         war ich verantwortlich für die Leitung des Küchenteams
                         und die Organisation aller Arbeitsabläufe in der Küche.
                         Ich plante und erstellte Speisekarten, koordinierte den
