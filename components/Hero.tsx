@@ -18,7 +18,7 @@ const skills = [
         "Arbeiten mit JSON",
         "Arbeiten mit Datumswerten",
         "Virtual Environments",
-        "Paketmanagemen",
+        "Paketmanagement",
     ],
     [
         "Dashboard Design",
@@ -76,8 +76,10 @@ const skills = [
 export const Hero = () => {
     return (
         <div className="w-full px-3 py-4 rounded-xl flex flex-col gap-6 bg-slate-800 shadow-lg border border-slate-600">
-            <div className="font-bold text-4xl">YOUR NAME</div>
-            <p className="italic text-sm py-1">YOUR SUBLINE</p>
+            <div className="font-bold text-4xl">Michael Matthiesen</div>
+            <p className="italic text-sm py-1">
+                IHK-zertifizierter Data-Analyst
+            </p>
 
             {/* Oberer Bereich: zwei Spalten nebeneinander */}
             <div className="flex flex-col md:flex-row w-full justify-center px-2">
@@ -85,7 +87,7 @@ export const Hero = () => {
                 <div className="flex flex-col w-full md:flex-row gap-4">
                     {/* Profilbild */}
                     <Image
-                        src="/thumb_v.jpg"
+                        src="/Me.jpg"
                         className="rounded-4xl"
                         width={250}
                         height={200}
@@ -135,13 +137,13 @@ export const Hero = () => {
             <div>
                 <p className="text-3xl py-3">Was mich ausmacht</p>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Nulla consequatur pariatur tempora magnam id! Culpa, harum
-                    maxime! Fugiat sed incidunt harum blanditiis labore fugit
-                    dolores commodi unde dignissimos esse dolore vel maiores
-                    aperiam doloribus, beatae repudiandae sit ipsum molestias id
-                    cumque quo! Facere saepe obcaecati ut hic consectetur
-                    perspiciatis ea commodi dolorum ab sit, earum excepturi?
+                    Ich bin ein kreativer Data-Analyst mit gastronomischem
+                    Background und einer Affinität für Daten und
+                    Naturwissenschaften. Meine rasche Auffassungsgabe und mein
+                    analytisches Denken ermöglichen es mir, Daten in
+                    aussagekräftige Erkenntnisse umzuwandeln. In meinem letzten
+                    Projekt habe ich bewiesen, dass ich datenbasierte
+                    Entscheidungen treffen kann.
                 </p>
             </div>
         </div>

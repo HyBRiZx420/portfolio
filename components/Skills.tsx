@@ -27,18 +27,23 @@ export const Skills = () => {
 
                 <Section>
                     <p className="text-4xl pt-2 pb-3"> Abschlüsse </p>
-                    <p>
-                        Lorem ipsum dolor sit amet.
-                        <b>...</b>
+                    <p className="text-xl pt-2 pb-0">
+                        Qualifikation zum Data-Analyst
+                        -> Data Craft GmbH München 
+                        -> 2024 - 2025
+                        <b> ✓</b>
                     </p>
-                    <p>
-                        Lorem ipsum dolor sit amet.
-                        <b>...</b>
+                    <p className="text-xl pt-1 pb-0">
+                        Berufsausbildung zum Koch
+                        -> Best Western Seehotel Frankenhorst 
+                        -> 2008 - 2011
+                        <b> ✓</b>
                     </p>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>
-                        Lorem ipsum dolor sit amet.
-                        <b>...</b>
+                    <p className="text-xl pt-1 pb-0">
+                        Hauptschuleabschluss
+                        -> Volkshochschule Schwerin  
+                        -> 2006 - 2007
+                        <b> ✓</b>
                     </p>
                 </Section>
                 <Section>
