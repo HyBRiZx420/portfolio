@@ -12,28 +12,28 @@ import {
 const data = [
     {
         subject: "Python",
-        A: 5,
-        B: 8,
+        A: 7.2,
+        B: 10,
     },
     {
         subject: "SQL",
-        A: 6,
-        B: 7,
+        A: 7.5,
+        B: 10,
     },
     {
         subject: "PowerBI",
-        A: 4,
-        B: 6,
+        A: 7,
+        B: 10,
     },
     {
         subject: "SoftSkills",
         A: 6.5,
-        B: 8,
+        B: 10,
     },
     {
-        subject: "PM-Tools",
-        A: 3.5,
-        B: 5,
+        subject: "Visuals",
+        A: 7.1,
+        B: 10,
     },
 ];
 
@@ -42,7 +42,7 @@ export default class Example extends PureComponent {
         return (
             <div className="h-[20rem] w-[22rem] ">
                 <ResponsiveContainer width="130%" height="140%" className={""}>
-                    <RadarChart cx="52%" cy="55%" data={data}>
+                    <RadarChart cx="55%" cy="55%" data={data}>
                         <Legend className="" align="left" verticalAlign="top" />
                         <PolarGrid />
                         <PolarAngleAxis dataKey="subject" />
@@ -51,16 +51,16 @@ export default class Example extends PureComponent {
                         <Radar
                             name="Ziel"
                             dataKey="B"
-                            stroke="#82ca9d"
-                            fill="#82ca9d"
-                            fillOpacity={0.6}
+                            stroke="#00ff00"
+                            fill="#00c950"
+                            fillOpacity={0.5}
                         />
                         <Radar
                             name="Aktuell"
                             dataKey="A"
-                            stroke="#8884d8"
-                            fill="#8884d8"
-                            fillOpacity={0.7}
+                            stroke="#0083ff"
+                            fill="#00bbff"
+                            fillOpacity={0.5}
                         />
                     </RadarChart>
                 </ResponsiveContainer>

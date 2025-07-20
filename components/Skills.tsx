@@ -3,14 +3,17 @@ import { Section } from "./Shared/Section";
 
 const skills = [
     "Organisation",
-    "Kommunikation",
     "Empathie",
+    "Kreativität",
     "Verantwortung",
     "Resilienz",
-    "Storytelling",
-    "Flexibilität",
+    "ADHS-HyperFokus",
+    "Kommunikation",
+    "Selbständigkeit",
     "Lifelong Learner",
-    "Hands-on Mentalität",
+    "Teamplayer",
+    "Konstruktivität",
+    "Science-FanBoy"
 ];
 export const Skills = () => {
     return (

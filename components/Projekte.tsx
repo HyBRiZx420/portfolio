@@ -3,6 +3,16 @@ import { Section } from "./Shared/Section";
 
 // Elemente in der projektListe(Array) sind Strings der Dateinamen aus dem /public
 const slider_images = ["thumb.jpg", "thumb.jpg", "thumb.jpg"];
+const ssssss = ["thumb.jpg", "thumb.jpg", "thumb.jpg"];
+const IHK_LowCode = ["thumb.jpg", "thumb.jpg", "thumb.jpg"];
+const redezeit = [
+    "projektbeschreibung.png",
+    "final_page1.png",
+    "final_page2.png",
+    "final_page3.png",
+    "app1.png",
+    "app2.png",
+];
 
 const projektListe = [
     {
@@ -24,10 +34,10 @@ const projektListe = [
         subtitle: "Projekt Titel",
     },
     {
-        thumb: "thumb.jpg",
-        imgs: slider_images,
-        git_url: "",
-        subtitle: "Projekt Titel",
+        thumb: "intro.png",
+        imgs: redezeit,
+        git_url: "https://github.com/AmerorasWorks/Redezeit-Analyse",
+        subtitle: "Abschlussprojekt DataCraft",
     },
 ];
 
