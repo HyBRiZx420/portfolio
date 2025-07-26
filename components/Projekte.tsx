@@ -25,7 +25,7 @@ const projektListe = [
         thumb: "thumb.jpg",
         imgs: ssssss,
         git_url: "",
-        subtitle: "Projekt Titel",
+        subtitle: "SQL DataBase Nasa Exoplanets",
     },
     {
         thumb: "thumb.jpg",
