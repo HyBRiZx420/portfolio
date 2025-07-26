@@ -23,21 +23,21 @@ const projektListe = [
     },
     {
         thumb: "thumb.jpg",
-        imgs: slider_images,
+        imgs: ssssss,
         git_url: "",
         subtitle: "Projekt Titel",
     },
     {
         thumb: "thumb.jpg",
-        imgs: slider_images,
-        git_url: "",
-        subtitle: "Projekt Titel",
+        imgs: IHK_LowCode,
+        git_url: "https://github.com/Ameroras/IHK_Pruefung",
+        subtitle: "IHK LowCode Prüfung",
     },
     {
         thumb: "intro.png",
         imgs: redezeit,
         git_url: "https://github.com/AmerorasWorks/Redezeit-Analyse",
-        subtitle: "Abschlussprojekt DataCraft",
+        subtitle: "DataCraft Abschlussprojekt für Redezeit.de",
     },
 ];
 
