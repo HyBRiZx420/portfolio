@@ -31,7 +31,7 @@ export const ProjektKarte = ({
                 <div className="border-b border-indigo-950/10 rounded-2xl">
                     <Image
                         src={"/" + url}
-                        className="rounded-t-2xl min-h-95 w-full border-2 border-green-500"
+                        className="rounded-t-2xl min-h-95 min-w-130 border-2 border-green-500"
                         width={420}
                         height={320}
                         alt=""
