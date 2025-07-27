@@ -31,7 +31,7 @@ export const ProjektKarte = ({
                 <div className="border-b border-indigo-950/10 rounded-2xl">
                     <Image
                         src={"/" + url}
-                        className="rounded-t-2xl min-h-60 w-full border-2 border-green-500"
+                        className="rounded-t-2xl min-h-95 w-full border-2 border-green-500"
                         width={420}
                         height={320}
                         alt=""
@@ -63,7 +63,7 @@ const HoverLayer = ({ imageSet, git_url }: HoverLayerProps) => {
             <div className="w-full flex items-center justify-center gap-6 absolute top-20 bg-white/20 backdrop-blur-md backdrop-opacity-65 py-3 transition duration-150">
                 <div className="text-gray-950 hover:text-indigo-600/90">
                     <a href={git_url} target="_blank">
-                        <FaGithubAlt size={52} />
+                        <FaGithubAlt size={55} />
                     </a>
                 </div>
                 <div className="text-gray-950 hover:text-indigo-600/90">

@@ -87,9 +87,9 @@ export const Hero = () => {
                 <div className="flex flex-col w-full md:flex-row gap-4">
                     {/* Profilbild */}
                     <Image
-                        src="/Me.jpg"
+                        src="/Me2.png"
                         className="rounded-2xl border-2 border-green-500"
-                        width={250}
+                        width={370}
                         height={200}
                         alt="Bewerbungsfoto"
                     />
