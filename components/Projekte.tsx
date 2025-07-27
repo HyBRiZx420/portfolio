@@ -2,11 +2,32 @@ import { ProjektKarte } from "./Shared/ProjektKarte";
 import { Section } from "./Shared/Section";
 
 // Elemente in der projektListe(Array) sind Strings der Dateinamen aus dem /public
-const slider_images = ["thumb.jpg", "thumb.jpg", "thumb.jpg"];
-const ssssss = ["thumb.jpg", "thumb.jpg", "thumb.jpg"];
-const IHK_LowCode = ["thumb.jpg", "thumb.jpg", "thumb.jpg"];
+const google = [
+    "google2.png",
+    "google3.png",
+    "google4.png",
+    "google5.png",
+    "google6.png",
+    "google7.png",
+];
+
+const exoplanets = [
+    "exo1.png",
+    "exo2.png",
+    "exo3.png",
+];
+
+const ihk_lowcode = [
+    "IHK_1.png",
+    "IHK_2.png",
+    "IHK_3.png",
+    "IHK_4.png",
+    "IHK_5.png",
+];
+
 const redezeit = [
     "projektbeschreibung.png",
+    "rz2.jpg",
     "final_page1.png",
     "final_page2.png",
     "final_page3.png",
@@ -16,20 +37,20 @@ const redezeit = [
 
 const projektListe = [
     {
-        thumb: "thumb.jpg",
-        imgs: slider_images,
-        git_url: "",
-        subtitle: "Projekt Titel",
+        thumb: "google2.png",
+        imgs: google,
+        git_url: "https://github.com/Stringsdaemon/datavis_g5",
+        subtitle: "Google-Play-Store Analyse",
     },
     {
-        thumb: "thumb.jpg",
-        imgs: ssssss,
-        git_url: "",
+        thumb: "exo4.png",
+        imgs: exoplanets,
+        git_url: "https://github.com/HyBRiZx420/SQL_DA_Project",
         subtitle: "SQL DataBase Nasa Exoplanets",
     },
     {
-        thumb: "thumb.jpg",
-        imgs: IHK_LowCode,
+        thumb: "IHK_thumb.png",
+        imgs: ihk_lowcode,
         git_url: "https://github.com/Ameroras/IHK_Pruefung",
         subtitle: "IHK LowCode Prüfung",
     },
@@ -37,7 +58,7 @@ const projektListe = [
         thumb: "intro.png",
         imgs: redezeit,
         git_url: "https://github.com/AmerorasWorks/Redezeit-Analyse",
-        subtitle: "DataCraft Abschlussprojekt für Redezeit.de",
+        subtitle: "DataCraft Abschlussprojekt Redezeit.de",
     },
 ];
 
