@@ -76,8 +76,10 @@ const skills = [
 export const Hero = () => {
     return (
         <div className="w-full px-3 py-4 rounded-xl flex flex-col gap-6 bg-slate-950 shadow-lg border-2 border-green-500">
-            <div className="font-bold text-3xl">Michael Matthiesen</div>
-            <p className="font-bold italic text-sm py-1">
+            <div className="font-bold text-3xl text-white">
+                Michael Matthiesen
+            </div>
+            <p className="font-bold italic text-sm py-1 text-white">
                 IHK-zertifizierter Data-Analyst
             </p>
 
@@ -97,8 +99,10 @@ export const Hero = () => {
                     {/* Skillset und Zertifikate */}
                     <div className="flex flex-col gap-4 px-2">
                         <div>
-                            <p className="font-bold text-2xl pb-3">Skillset:</p>
-                            <div className="grid grid-cols-3 gap-1">
+                            <p className="font-bold text-2xl text-white pb-3">
+                                Skillset:
+                            </p>
+                            <div className="grid grid-cols-3 gap-1 text-white">
                                 {labels.map((val, idx) => (
                                     <HoverChip
                                         skills={skills[idx]}
@@ -135,8 +139,10 @@ export const Hero = () => {
 
             {/* Was mich ausmacht */}
             <div>
-                <p className="font-bold text-2xl py-3">Was mich ausmacht</p>
-                <p className="text-1xl py-1">
+                <p className="font-bold text-2xl text-white py-3">
+                    Was mich ausmacht
+                </p>
+                <p className="text-1xl text-white py-1">
                     Ich bin ein kreativer Data-Analyst mit gastronomischem
                     Background und einer Affinität für Daten und
                     Naturwissenschaften. Meine rasche Auffassungsgabe und mein
