@@ -1,5 +1,7 @@
 import { ProjektKarte } from "./Shared/ProjektKarte";
 import { Section } from "./Shared/Section";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 
 // Elemente in der projektListe(Array) sind Strings der Dateinamen aus dem /public
 const google = [
@@ -85,11 +87,30 @@ export const Projekte = () => {
                         })}
                     </div>
                 </Section>
-                <a
-                    href="mailto:irgendwasmitdata@web.de"
-                    className="px-6 font-bold py-3 bg-slate-900/60 border-2 border-green-500 hover:bg-emerald-600 backdrop-blur shadow shadow-emerald-600/100 text-white text-center rounded-lg transition">
-                    Kontaktieren sie mich hier
-                </a>
+                <div className="flex gap-4 justify-center">
+                    <a
+                        href="mailto:irgendwasmitdata@web.de"
+                        className="flex items-center gap-2 px-6 font-semibold py-3 bg-red-800/10 hover:bg-indigo-800/70 backdrop-blur shadow shadow-indigo-700/70 text-white text-center rounded-lg transition">
+                        Kontaktieren Sie mich hier direkt via Mail
+                        <HiOutlineMail size={24} />
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/michael-matthiesen-b49b59322/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="flex items-center gap-2 px-6 font-semibold py-3 bg-blue-700/90 hover:bg-blue-800/90 backdrop-blur shadow shadow-blue-700/90 text-white text-center rounded-lg transition">
+                        <FaLinkedin size={24} />
+                        oder via PN bei LinkedIn
+                    </a>
+                    <a
+                        href="https://github.com/HyBRiZx420"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="flex items-center gap-2 px-6 font-semibold py-3 bg-indigo-800 hover:bg-indigo-600/90 backdrop-blur shadow shadow-blue-700/90 text-white text-center rounded-lg transition">
+                        <span className="text">GitHub Profil</span>
+                        <FaGithub size={24} />
+                    </a>
+                </div>
             </div>
         </>
     );

@@ -2,6 +2,8 @@
 import Image from "next/image";
 import { HoverChip } from "./Shared/HoverChip";
 import MyChart from "./recharts/MyChart";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 
 const labels = ["Python", "Power BI", "SQL", "Excel", "PM-Tools", "Teamplay"];
 const skills = [
@@ -151,6 +153,30 @@ export const Hero = () => {
                     Projekt habe ich bewiesen, dass ich datenbasierte
                     Entscheidungen treffen kann.
                 </p>
+            </div>
+            <div className="flex gap-4 justify-center mt-6">
+                <a
+                                        href="mailto:irgendwasmitdata@web.de"
+                                        className="flex items-center gap-2 px-6 font-semibold py-3 bg-red-800/10 hover:bg-indigo-800/70 backdrop-blur shadow shadow-indigo-700/70 text-white text-center rounded-lg transition">
+                                        Kontaktieren Sie mich hier direkt via Mail
+                                        <HiOutlineMail size={24} />
+                                    </a>
+                                    <a
+                                        href="https://www.linkedin.com/in/michael-matthiesen-b49b59322/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="flex items-center gap-2 px-6 font-semibold py-3 bg-blue-700/90 hover:bg-blue-800/90 backdrop-blur shadow shadow-blue-700/90 text-white text-center rounded-lg transition">
+                                        <FaLinkedin size={24} />
+                                        oder via PN bei LinkedIn
+                                    </a>
+                                    <a
+                                        href="https://github.com/HyBRiZx420"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="flex items-center gap-2 px-6 font-semibold py-3 bg-indigo-800 hover:bg-indigo-600/90 backdrop-blur shadow shadow-blue-700/90 text-white text-center rounded-lg transition">
+                                        <span className="text">GitHub Profil</span>
+                                        <FaGithub size={24} />
+                                    </a>
             </div>
         </div>
     );
