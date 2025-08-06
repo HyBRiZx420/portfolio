@@ -145,38 +145,39 @@ export const Hero = () => {
                     Was mich ausmacht
                 </p>
                 <p className="text-1xl text-white py-1">
-                    Ich bin ein kreativer Data-Analyst mit gastronomischem
-                    Background und einer Affinität für Daten und
-                    Naturwissenschaften. Meine rasche Auffassungsgabe und mein
-                    analytisches Denken ermöglichen es mir, Daten in
-                    aussagekräftige Erkenntnisse umzuwandeln. In meinem letzten
-                    Projekt habe ich bewiesen, dass ich datenbasierte
-                    Entscheidungen treffen kann.
+                    Mit meinem Mindset "Ich bin kein 08/15-Analyst", bringe ich
+                    frischen Wind aus der Gastronomie-Branche in die Welt der
+                    Daten. Zahlen und Naturwissenschaften sind meine Passion,
+                    Kreativität mein Markenzeichen. Doch was heißt das für Sie?
+                    Ich erkenne Zusammenhänge blitzschnell und verwandle trockene Daten in knackige Ergebnisse, die Sie wirklich weiterbringen.
+                    Ich schaue über den Tellerrand hinaus und kann somit einen echten Mehrwert liefern.
+                    Sie wollen datenbasierte Entscheidungen, die Hand und Fuß haben?
+                    Dann lassen Sie uns doch gemeinsam tiefer graben - und den Unterschied erleben.
                 </p>
             </div>
             <div className="flex gap-4 justify-center mt-6">
                 <a
-                                        href="mailto:irgendwasmitdata@web.de"
-                                        className="flex items-center gap-2 px-6 font-semibold py-3 bg-red-800/10 hover:bg-indigo-800/70 backdrop-blur shadow shadow-indigo-700/70 text-white text-center rounded-lg transition">
-                                        Kontaktieren Sie mich hier direkt via Mail
-                                        <HiOutlineMail size={24} />
-                                    </a>
-                                    <a
-                                        href="https://www.linkedin.com/in/michael-matthiesen-b49b59322/"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        className="flex items-center gap-2 px-6 font-semibold py-3 bg-blue-700/90 hover:bg-blue-800/90 backdrop-blur shadow shadow-blue-700/90 text-white text-center rounded-lg transition">
-                                        <FaLinkedin size={24} />
-                                        oder via PN bei LinkedIn
-                                    </a>
-                                    <a
-                                        href="https://github.com/HyBRiZx420"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        className="flex items-center gap-2 px-6 font-semibold py-3 bg-indigo-800 hover:bg-indigo-600/90 backdrop-blur shadow shadow-blue-700/90 text-white text-center rounded-lg transition">
-                                        <span className="text">GitHub Profil</span>
-                                        <FaGithub size={24} />
-                                    </a>
+                    href="mailto:irgendwasmitdata@web.de"
+                    className="flex items-center gap-2 px-6 font-semibold py-3 bg-red-800/10 hover:bg-indigo-800/70 backdrop-blur shadow shadow-indigo-700/70 text-white text-center rounded-lg transition">
+                    Kontaktieren Sie mich hier direkt via Mail
+                    <HiOutlineMail size={24} />
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/michael-matthiesen-b49b59322/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center gap-2 px-6 font-semibold py-3 bg-blue-700/90 hover:bg-blue-800/90 backdrop-blur shadow shadow-blue-700/90 text-white text-center rounded-lg transition">
+                    <FaLinkedin size={24} />
+                    oder via PN bei LinkedIn
+                </a>
+                <a
+                    href="https://github.com/HyBRiZx420"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center gap-2 px-6 font-semibold py-3 bg-indigo-800 hover:bg-indigo-600/90 backdrop-blur shadow shadow-blue-700/90 text-white text-center rounded-lg transition">
+                    <span className="text">GitHub Profil</span>
+                    <FaGithub size={24} />
+                </a>
             </div>
         </div>
     );
