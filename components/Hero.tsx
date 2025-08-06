@@ -145,7 +145,7 @@ export const Hero = () => {
                     Was mich ausmacht
                 </p>
                 <p className="text-1xl text-white py-1">
-                    Mit meinem Mindset "Ich bin kein 08/15-Analyst", bringe ich
+                    Mit meinem Mindset 'Ich bin kein 08/15-Analyst', bringe ich
                     frischen Wind aus der Gastronomie-Branche in die Welt der
                     Daten. Zahlen und Naturwissenschaften sind meine Passion,
                     Kreativität mein Markenzeichen. Doch was heißt das für Sie?
